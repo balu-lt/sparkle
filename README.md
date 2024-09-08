@@ -249,9 +249,9 @@ Agents are registered with the `SparkleServer` facade in a service provider. Her
 
 namespace App\Providers;
 
+use App\Agents\MultiToolAgent;
 use EchoLabs\Sparkle\Facades\SparkleServer;
 use Illuminate\Support\ServiceProvider;
-use Workbench\App\Agents\MultiToolAgent;
 
 class AppServiceProvider extends ServiceProvider
 {
